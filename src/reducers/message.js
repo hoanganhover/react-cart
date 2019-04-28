@@ -1,7 +1,6 @@
 import * as Message from './../constants/Message';
 import * as types from './../constants/ActionType';
 
-//var data = JSON.parse(localStorage.getItem('CART'));
 var initialState = Message.MSG_WELCOME;
 
 const message = (state = initialState, action) =>{
